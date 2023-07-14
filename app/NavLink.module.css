@@ -1,0 +1,16 @@
+.navLink {
+  border-bottom: 2px solid transparent;
+  color: var(--on-dark-1);
+  padding: 8px 16px;
+  transition: border-bottom 0.25s, color 0.25s;
+}
+
+.navLink:hover {
+  border-bottom: 2px solid var(--on-dark-1);
+  color: rgb(var(--app-green-2-rgb));
+}
+
+.activeLink {
+  border-bottom: 2px solid var(--on-dark-1);
+  color: rgb(var(--app-green-2-rgb));
+}

@@ -1,0 +1,26 @@
+.header {
+  align-items: center;
+  background-color: rgba(var(--app-gray-1-rgb), 0.95);
+  backdrop-filter: blur(4px);
+  column-gap: 16px;
+  display: flex;
+  height: 80px;
+  padding: 0 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.headerLogo {
+  color: var(--on-dark-1);
+}
+
+.headerLogo h1 {
+  font-weight: 900;
+}
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

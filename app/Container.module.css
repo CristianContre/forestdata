@@ -1,0 +1,37 @@
+.outContainer {
+  padding: 75px 32px 32px 150px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+}
+
+.container img {
+  border-radius: 100%;
+  border: 5px solid white;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  transform: translate(-50%, -25%);
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  padding-left: 182px;
+  row-gap: 32px;
+  width: 500px;
+}
+
+.containerInfo h1 {
+  color: rgb(var(--app-gray-1-rgb));
+  text-align: center;
+}
+
+.containerInfo h3 {
+  color: rgb(var(--app-green-2-rgb));
+  text-align: justify;
+}
