@@ -1,15 +1,16 @@
-.outContainer {
+.container {
   padding: 75px 32px 32px 150px;
+  max-width: 650px;
 }
 
-.container {
+.innerContainer {
   background-color: white;
   border-radius: 8px;
   display: flex;
   position: relative;
 }
 
-.container img {
+.innerContainer img {
   border-radius: 100%;
   border: 5px solid white;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
@@ -26,7 +27,7 @@
   width: 500px;
 }
 
-.containerInfo h1 {
+.containerInfo h2 {
   color: rgb(var(--app-gray-1-rgb));
   text-align: center;
 }

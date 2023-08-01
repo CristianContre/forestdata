@@ -8,10 +8,11 @@
   --on-dark-1: rgb(230, 230, 230);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-  }
-} */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 * {
   box-sizing: border-box;
@@ -19,22 +20,14 @@
   padding: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
+h2 {
+  font-size: 1.8rem;
+}
 
 main {
   display: flex;
